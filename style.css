@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: gray;
+}
+li a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.menu{
+    text-align: center;
+     background-color: aqua;
+     
+}
+.menu ul li{
+ height: 50px;
+width: 100px;
+    line-height: 50px;
+    display: inline-flex;
+   text-align: center;
+    border-right: 1px solid white;
+}
+
+.menu ul li:last-child{
+    border-right: none;
+}
+
+.menu ul li a {
+    color: white;
+    text-transform: capitalize;
+    display: block;
+    font-size: 20px;
+  }
+
+
+  .menu ul li:hover {
+      background-color: teal;
+  }
+  
+
+/* menubar started */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  
+  .menu {
+    background-color: darkcyan;
+    text-align: center;
+  }
+  .menu ul {
+    display: inline-flex;
+    list-style: none;
+  }
+  .menu ul li {
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
+    border-right: 1px solid white;
+    position: relative;
+  }
+  .menu ul li a {
+    color: rgb(173, 39, 39);
+    text-transform: capitalize;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 35px;
+  }
+
+.menu ul li:hover{
+  background-color: gray;
+
+
+}
+.menu ul li a:hover{
+  color: aliceblue;
+  display: block;
+}
+
+.menu ul li a:focus {
+  color: rgb(0, 0, 0);
+}
+
+.menu ul li.active{
+  background-color: gray;
+}
+
+.Dropdown{
+  display: none;
+}
+.menu ul li:hover .Dropdown{
+  display: block;
+  position: absolute;
+}
+.menu ul li:hover .Dropdown ul{
+  display: block;
+
+  background-color: green;
+  border: none;
+}
+
+.sub{
+  position: relative;
+}
+.submenu{
+  display: none;
+}
+
+.sub:hover .submenu {
+  display: block;
+  position: absolute;
+  left: 120px;
+  top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
